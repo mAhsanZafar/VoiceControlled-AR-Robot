@@ -118,6 +118,8 @@ A mobile Android application that integrates voice control, augmented reality (A
 ├── build.gradle
 └── settings.gradle
 ```
+## Flowchart
+![WhatsApp Image 2025-06-25 at 21 37 05_5e4f63b3](https://github.com/user-attachments/assets/fa7ce6bd-fc83-43e4-b767-a00125acd05e)
 
 ## Contributing
 
