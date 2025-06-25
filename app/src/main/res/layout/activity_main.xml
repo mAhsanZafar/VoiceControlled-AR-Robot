@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:camera="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for entering the ESP IP address -->
+    <EditText
+        android:id="@+id/edtEspIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ESP IP (default 192.168.0.160)"
+        android:inputType="text" />
+
+    <!-- Button to connect to the ESP device -->
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to ESP"
+        android:layout_marginTop="8dp" />
+
+    <!-- TextView to display the recognized voice command -->
+    <TextView
+        android:id="@+id/txtCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Command"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView to display the response from the ESP -->
+    <TextView
+        android:id="@+id/txtResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Response"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- PreviewView for CameraX preview / ARCore feed -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="16dp"
+        camera:implementationMode="compatible" />
+
+</LinearLayout>
