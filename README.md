@@ -2,6 +2,33 @@
 
 A mobile Android application that integrates voice control, augmented reality (AR), computer vision, and robotics. The app allows users to control an ESP-based robot remotely using voice commands, while leveraging ARCore for spatial awareness and ML Kit for face and object detection.
 
+## To-Do List Web App
+
+This repository also includes a standalone to-do list web application:
+
+- `index.html` - semantic HTML structure
+- `style.css` - responsive modern styling
+- `script.js` - vanilla JavaScript task management with localStorage persistence
+
+### Features
+
+- Add, edit, complete, and delete tasks
+- Persistent storage using browser `localStorage`
+- Auto-load saved tasks when the page opens
+- "Clear All" action with confirmation
+- Input validation to prevent empty tasks
+- Responsive design for desktop and mobile
+
+### How to Use
+
+1. Open `/tmp/workspace/mAhsanZafar/VoiceControlled-AR-Robot/index.html` in a browser.
+2. Enter a task and click **Add**.
+3. Use:
+   - checkbox to mark completed
+   - **Edit** to update task text
+   - **Delete** to remove a task
+4. Click **Clear All** to remove all tasks after confirmation.
+
 ## Features
 
 * **Voice Control:** Use Android `SpeechRecognizer` and `TextToSpeech` for natural language commands.
