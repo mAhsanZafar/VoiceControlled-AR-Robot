@@ -21,7 +21,7 @@ This repository also includes a standalone to-do list web application:
 
 ### How to Use
 
-1. Open `/tmp/workspace/mAhsanZafar/VoiceControlled-AR-Robot/index.html` in a browser.
+1. Open `index.html` in any modern browser.
 2. Enter a task and click **Add**.
 3. Use:
    - checkbox to mark completed

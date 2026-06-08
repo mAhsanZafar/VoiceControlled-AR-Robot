@@ -38,7 +38,7 @@ function renderTasks() {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.checked = task.completed;
-    checkbox.setAttribute('aria-label', `Mark task \"${task.text}\" complete`);
+    checkbox.setAttribute('aria-label', `Mark task ${task.text} as complete`);
     checkbox.addEventListener('change', () => toggleTask(task.id));
 
     const text = document.createElement('p');
